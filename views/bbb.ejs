@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+<body>
+    <div class="columns">
+        <div class="column is-four-fifths is-offset-1">
+            <div class="card">
+                <div class="card-content">
+                  <div class="content">
+                    <h4><%= quizOn.title %></h4>
+            <%var alpha=1;%>
+            <form action="/result" method="POST">
+                <fieldset disabled>
+                    <input class="input" type="text" value="<%=quizOn._id%>" name="quizId">
+                </fieldset>
+        
+            <% for(let i = 0; i <  Question.length; i++){%>
+                <p>Q<%=alpha%> <%=Question[i].ques %></p>
+                
+                <input type="radio" id="option1" name="ans<%=alpha%>" value="1">
+                <label for="option1"><%= Question[i].opt1%></label>
+                <input type="radio" id="option2" name="ans<%=alpha%>" value="2">
+                <label for="option2"><%= Question[i].opt2%></label>
+                <input type="radio" id="option3" name="ans<%=alpha%>" value="3">
+                <label for="option3"><%= Question[i].opt3%></label>
+                <input type="radio" id="option4" name="ans<%=alpha%>" value="4">
+                <label for="option4"><%= Question[i].opt4%></label>
+        
+                <% alpha++;%>
+            <%}%>   
+            <br>
+            <button class="button is-link is-medium is-fullwidth">Submit</button>
+            </form> 
+                </div>
+                </div>
+              </div>
+        </div>
+      </div>
+</body>
+</html>

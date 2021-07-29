@@ -1,0 +1,48 @@
+#CAccount{
+    background-color: #38c2bd;
+    color: aliceblue;
+}
+/* .inputText{
+    height: 35px;
+} */
+/* .inputCreate{
+    width: 140px;
+    height: 35px;
+} */
+/* #MainBlock{
+    padding: 100%;
+} */
+#elementWrapper{
+    
+    padding: 20%;
+    
+    /* background-image: url("https://images.unsplash.com/photo-1596803486585-71c77b3ad7a7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fG9jZWFuJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"); */
+    /* background-size: cover; */
+}
+#imageApp{
+    /* https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fHF1aXolMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60 */
+    background-image: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+    background-size: cover;
+}
+#blowForm{
+    text-align: center;
+}
+/* .imgLogo{
+    height: 100px;
+    width: 200px;
+} */
+body{
+    background-color: #ffffe8;
+}
+footer{
+    background-color: #fafad2;
+    color: black;
+}
+/* .badgeHome{
+    badge-font-size:                   .75em;
+    badge-color:                       indigo-300;
+    badge-padding-y:                   .35em;
+    badge-padding-x:                   .65em;
+    badge-border-radius:               $border-radius;
+
+} */

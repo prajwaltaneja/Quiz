@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Maker</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <style>
+        html{
+            /* background-image: url("https://images.unsplash.com/photo-1518821703881-9da5a9f42038?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"); */
+            /* background-image: url("https://images.unsplash.com/photo-1490487135801-031cf13ab462?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1952&q=80"); */
+            /* background-image: url("https://images.unsplash.com/photo-1579546928686-286c9fbde1ec?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1792&q=80");            */
+            background-image: url("https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80");
+            background-size: contain;
+        }
+        #headed,#sel{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="columns is-mobile m-3">
+        <div class="column is-8 is-offset-2">
+            <div class="card">
+                <div class="card-content">
+                    <div class="content" >
+                        <h2 id="headed" >Quiz Maker</h2>
+
+
+                        
+                        <form action="/newEntry" method="POST">
+                            <input class="input is-medium is-warning my-5" type="text" id="head11" name="title" required placeholder="Quiz Title">
+                            <div class="control p-6 2" id="sel" >
+                                <label for="NoQues" class="p-1">Select the number of questions:</label>
+                                <div class="select" >
+                                    <select id="NoQues" name="ques_no">
+                                        <option value="1" selected>1</option>
+                                        <option value="3" >3</option>
+                                        <option value="15">15</option>
+                                        <option value="20">20</option>
+                                        <option value="25">25</option>
+                                        <option value="30">30</option>
+                                        <option value="50">50</option>
+                                        <option value="75">75</option>
+                                        <option value="100">100</option>
+                                        <option value="150">150</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="ques" id="allContent">
+
+
+
+
+
+
+
+                               <!-- <button class="button is-danger is-outlined px-6 ml-6">Create</button> -->
+                            </div> 
+                            <button class="button is-primary is-fullwidth is-medium">Create</button>
+                            </form>
+                        <!-- <textarea name="" id="" cols="300" rows="10"></textarea> -->
+                    </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+    
+</body>
+</html>

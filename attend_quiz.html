@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <style>
+        html{
+            background-image: url("https://images.unsplash.com/photo-1607081759001-1db1d7b0e5b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80");
+            /* background-image: url("https://images.unsplash.com/photo-1600493572882-f098876ce680?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80"); */
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="columns my-4">
+        <div class="column py-6  is-half is-offset-one-quarter">
+            <article class="message is-warning">
+                <div class="message-body p-6 is-offset-one-quarter">
+                    <!-- <label for="code"> : </label> -->
+                    <div class="columns">
+                        <div class="column is-half is-offset-one-quarter">
+                            <a href="/qmake"><button class="button is-black  mx-6 py-2 px-6" type="submit">Create Quiz</button></a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <div class="columns">
+        <div class="column py-6  is-half is-offset-one-quarter">
+            <article class="message is-link">
+                <div class="message-body p-6">
+                    <form action="/code" method="POST">
+                        <label for="coded">Code to enter in the quiz : </label>
+                        <input id="coded" class="px-3 py-2 mx-3" name="code" type="text" required placeholder="#code">
+                        <button class="button is-black" type="submit">Submit</button>
+                    </form>
+                </div>
+            </article>
+        </div>
+    </div>
+</body>
+</html>
