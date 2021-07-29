@@ -33,12 +33,15 @@ In this project I have made a website on quiz, the webstie have following featur
     
   <li>
     Creating a quiz - It is a form which consist of Title of the quiz and each question area consist of-
+    <br><ol><li>
+    Text area to enter Question.</li>
     <br>
-    Text area to enter Question.
+    <li>
+    Four text area to enter four options.</li>
     <br>
-    Four text area to enter four options.
-    <br>
-    A radio button to answer correct option.
+    <li>
+    A radio button to answer correct option.</li>
+    </ol>
     <br>
     There is also a select button with allow you to choose number of questions and dynamically adds up question area ie. [question area*number of question].<br>
     Once you create a quiz it will display quiz code(created quiz _id) which you can copy and whoever enters that code can enter and attend quiz.
