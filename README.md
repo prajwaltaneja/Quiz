@@ -26,7 +26,7 @@ In this project I have made a website on quiz, the webstie have following featur
   <li>
     Front page - Consist of real-time login and sign-in option. And displays feature of the website.
   </li>
-    
+    ![Front_page](https://user-images.githubusercontent.com/87143699/127488969-85919be6-1a01-450b-be80-139bc0d18296.png)
    <li>
     Sign-in/Login - As you sign in/login, the information you entered with be saved in database. You are only allow to move further after login/signin.
   </li>
