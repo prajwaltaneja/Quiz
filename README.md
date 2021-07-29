@@ -23,25 +23,23 @@ For more details read below...
 
 
 
-
-
-
 <h2>Features</h2>
 In this project I have made a website on quiz, the webstie have following features:-
-<ul>
+  <ul>
   <li>
     Front page - Consist of real-time login and sign-in option. And displays feature of the website.
   </li>
   </ul>
+  
    ![Front_page](https://user-images.githubusercontent.com/87143699/127490216-e63b1c4a-18f3-4eb8-a30a-3672b8abd8ee.png)
    
-   
-  <ul>
-   <li>
+  <ul><li>
     Sign-in/Login - As you sign in/login, the information you entered with be saved in database. You are only allow to move further after login/signin.
   </li></ul>
-    ![login](https://user-images.githubusercontent.com/87143699/127495811-b10c2de7-3cc0-4212-b271-9cdbc5577d53.png)
-    ![optionPage](https://user-images.githubusercontent.com/87143699/127495822-1e9c998f-b876-4781-95f2-5b6f7cd7beff.png)
+  
+  ![login](https://user-images.githubusercontent.com/87143699/127495811-b10c2de7-3cc0-4212-b271-9cdbc5577d53.png)
+
+![codedip](https://user-images.githubusercontent.com/87143699/127498982-3feec60d-cc74-44c6-9ba0-9bfb339e8649.png)
     
    <ul>
   <li>
