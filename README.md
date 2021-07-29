@@ -25,11 +25,11 @@ In this project I have made a website on quiz, the webstie have following featur
 <ul>
   <li>
     Front page - Consist of real-time login and sign-in option. And displays feature of the website.
-  <li>
+  </li>
     
    <li>
     Sign-in/Login - As you sign in/login, the information you entered with be saved in database. You are only allow to move further after login/signin.
-  <li>
+  </li>
     
   <li>
     Creating a quiz - It is a form which consist of Title of the quiz and each question area consist of-
@@ -42,14 +42,14 @@ In this project I have made a website on quiz, the webstie have following featur
     <br>
     There is also a select button with allow you to choose number of questions and dynamically adds up question area ie. [question area*number of question].<br>
     Once you create a quiz it will display quiz code(created quiz _id) which you can copy and whoever enters that code can enter and attend quiz.
-  <li>
+  </li>
     
    <li>
     Attend quiz-It allows you to enter and attend quiz where you can choose correct option for an individual question. Once you submit the quiz, it will check weather your marked option is correct or not and later renders you to Score Display page.
-  <li>
+  </li>
     
    <li>
     Score Display- Here you see your score of that attended quiz[EJS page]
-  <li>
+  </li>
 </ul> 
 
