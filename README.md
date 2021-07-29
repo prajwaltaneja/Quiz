@@ -7,7 +7,7 @@ When you create a quiz, it will generate a code by copying and later whoever ent
 HTML5, CSS3, Javascript
 <h6>Libraries</h6>
 Bootstrap, Bulma
-
+![image](https://user-images.githubusercontent.com/87143699/127488343-15153b92-bab7-4ade-9be4-6b2016744bec.png)
 <h5>Backend</h5>
 <h6>Languages</h6>
 Javascript, Nodejs
